@@ -161,7 +161,7 @@ describe('diff-snapshot', () => {
         { threshold: 0.01 }
       );
 
-      expect(mockSpawn.calls[0].args[0]).toBe(path.resolve('./src/write-result-diff-image.js'));
+      expect(path.resolve(mockSpawn.calls[0].args[0])).toBe(path.resolve('./src/write-result-diff-image.js'));
       expect(mockSpawn.calls[0].command).toBe('node');
       expect(mockSpawn.calls[0].opts.input).toEqual(expect.any(Buffer));
     });
