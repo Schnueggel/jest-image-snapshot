@@ -1,5 +1,5 @@
 {
-  "name": "jest-image-snapshot",
+  "name": "@wanamu/jest-image-snapshot",
   "version": "1.0.0",
   "description": "Jest matcher for image comparisons. Most commonly used for visual regression testing.",
   "main": "src/index.js",
@@ -37,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/schnueggel/jest-image-snapshot.git"
+    "url": "git+https://github.com/schnueggel/jest-image-snapshot.git"
   },
   "author": "Andres Escobar <andres.escobar@aexp.com> (https://github.com/anescobar1991)",
   "license": "Apache-2.0",
@@ -60,5 +60,12 @@
   },
   "peerDependencies": {
     "jest": ">=20 <=22"
+  },
+  "bugs": {
+    "url": "https://github.com/schnueggel/jest-image-snapshot/issues"
+  },
+  "homepage": "https://github.com/schnueggel/jest-image-snapshot#readme",
+  "directories": {
+    "example": "examples"
   }
 }
